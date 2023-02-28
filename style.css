@@ -1,0 +1,368 @@
+.orange {
+  color: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  height: 120vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom,
+      #353543 0%,
+      #353543 39%,
+      #282934 39%,
+      #282934 120%);
+  background-size: auto;
+}
+
+
+.hero {
+  padding: 3vh 0vh 0vh 6vw;
+}
+
+
+
+nav {
+  padding: 0vh 2vw 0px 0PX;
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  height: 6vh;
+}
+
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  width: 15px;
+}
+
+nav Ul Li {
+  List-Style: None;
+  Padding: 0vw 3vw;
+}
+
+a {
+  Text-Decoration: None;
+}
+
+div>a {
+  padding: 30px;
+}
+
+
+.lighter {
+  font-weight: lighter;
+}
+
+div>h1 {
+  margin: 9vh 0vh 0vh 0vh;
+}
+
+
+#line {
+  height: 0.6vh;
+  width: 7vw;
+  background-color: orange;
+  border-radius: 60vh;
+}
+
+#circle {
+  position: absolute;
+  bottom: 39vh;
+  left: 41vw;
+  height: 349px;
+  width: 350px;
+  background-color: #282934;
+  border: #282934 1px solid;
+  border-radius: 200vh;
+  z-index: -2;
+}
+
+.img {
+  position: absolute;
+  top: 12vh;
+  left: 42vw;
+  z-index: -1;
+}
+
+.img img {
+  height: 230px;
+}
+
+.freelancer {
+  width: 17vw;
+  margin: 20px 0 0 0;
+}
+
+.small {
+  font-size: small;
+}
+
+
+.service {
+  position: absolute;
+  right: 185px;
+  top: 129px;
+  width: 201px;
+}
+
+.inline {
+  display: inline;
+  padding: 0 9px 0px 0px;
+}
+
+#padding {
+  padding: 0 0 7px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 854px;
+  height: 90px;
+  margin: -2vh 0px 0px 18vw;
+  background-color: #403f4f;
+}
+
+
+
+
+.flex div {
+  box-sizing: border-box;
+  height: 46px;
+  width: 137px;
+  text-align: center;
+  background-color: #343345;
+  padding: 12px 0px 0px 0px;
+}
+
+#google {
+  height: 60px;
+  margin: -20px 0 0 0;
+}
+
+#slack {
+  height: 25px;
+}
+
+.blue {
+  color: #0668E1;
+}
+
+
+.slack {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+div>h2 {
+  text-transform: capitalize;
+}
+
+.needs {
+  width: 193px;
+  margin: 30px 0 0 0;
+}
+
+
+
+.cv {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 306px;
+  grid-gap: 38px 15px;
+  margin: 45px 0px 0px 0px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+
+.c {
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  height: 195px;
+  justify-content: space-evenly;
+  width: 873px;
+  text-align: center;
+  align-items: center;
+  margin: -39px 0 0 365px;
+  position: absolute;
+  top: 100vh;
+  left: 0vw;
+}
+
+.container div {
+  background-color: #403f4f;
+  height: 180px;
+  width: 200px;
+}
+
+.about {
+  position: absolute;
+  right: 20vw;
+  top: 54vh;
+  height: 40vh;
+  width: 28vw;
+}
+
+
+.about1,
+.about2,
+.about3 {
+  display: flex;
+  align-items: center;
+}
+
+
+.UiImage {
+  height: 70px;
+  width: 110px;
+}
+
+.arrow1 {
+  position: absolute;
+  left: 11vw;
+  font-size: 25px;
+}
+
+
+.arrow2 {
+  position: absolute;
+  left: 7vw;
+  font-size: 25px;
+}
+
+
+.arrow3 {
+  position: absolute;
+  left: 7.5vw;
+  font-size: 25px;
+}
+
+.aboutName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.projects {
+  margin-left: 10px;
+  color: gray;
+}
+
+hr {
+  color: grey;
+}
+
+
+
+@media screen and (max-width: 820px) {
+
+  .hero {
+    padding: 22px 0vh 0vh 40px;
+  }
+
+  .logo {
+    letter-spacing: 0px;
+  }
+
+  nav {
+    padding: 0%;
+  }
+
+  nav ul {
+    width: 284px;
+  }
+
+  nav Ul Li {
+    Padding: 0vw 2vw;
+  }
+
+  div>h1 {
+    font-size: x-large;
+    margin: 69px 0vh 0vh 0vh;
+  }
+
+
+  #circle {
+    top: 120px;
+    left: 215px;
+  }
+
+  .img {
+    top: 130px;
+    left: 242px;
+  }
+
+  .freelancer {
+    width: 165px;
+  }
+
+
+
+  .service {
+    top: 108px;
+    right: 5px;
+    font-size: small;
+    padding: 28px 0 0 57px;
+  }
+
+
+  .flex {
+    width: 650px;
+    height: 71px;
+    margin: 26px 0px 0px 35px;
+  }
+
+
+  .needs {
+    width: 220px;
+    padding: 12px 0 0 0px;
+  }
+
+
+
+  .cv {
+    position: relative;
+    bottom: 112px;
+    left: 284px;
+  }
+
+
+
+  .c {
+    padding: 20px 0;
+  }
+
+
+  .container {
+    margin: -66px 0 0 0;
+  }
+
+  .container div {
+    font-size: smaller;
+  }
+
+}
